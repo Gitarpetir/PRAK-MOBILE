@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DaduXML</string>
+    <string name="ButtonRoll" />
+    <string name="button">Roll</string>
+</resources>
