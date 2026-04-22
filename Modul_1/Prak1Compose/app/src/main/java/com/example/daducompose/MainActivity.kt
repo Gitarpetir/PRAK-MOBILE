@@ -46,9 +46,7 @@ class MainActivity : ComponentActivity() {
 fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
     var angkaDadu1 by remember { mutableStateOf(0) }
     var angkaDadu2 by remember { mutableStateOf(0) }
-
     val context = LocalContext.current
-
     val gambarDadu1 = when (angkaDadu1) {
         1 -> R.drawable.dice_1
         2 -> R.drawable.dice_2
